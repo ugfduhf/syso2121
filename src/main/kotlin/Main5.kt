@@ -34,7 +34,7 @@ import kotlin.math.abs
 //  4 5 6
 //  9 8 9
 
-fun diagonalDifference(arr: Array<Array<Int>>):Int {
+fun diagonalDifference1(arr: Array<Array<Int>>):Int {
     // Write your code here
     var diagonal1 = 0
     var diagonal2 = 0
@@ -52,7 +52,7 @@ fun main() {
     var c: Array<Int> = arrayOf(10,8,8)
     var r : Array<Array<Int>> = arrayOf(a,b,c)
 
-    println(diagonalDifference(r))
+    println(diagonalDifference1(r))
 }
 
 
